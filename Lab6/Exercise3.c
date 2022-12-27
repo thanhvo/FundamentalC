@@ -1,3 +1,5 @@
+// The solution is provided at 
+// https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 #include <stdio.h>
 #include <string.h>
 
