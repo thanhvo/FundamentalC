@@ -4,7 +4,7 @@
 int formulaA(int n)
 {
     if (n <= 0) return 0;
-    return (2*n + 1) + formulaA(n-1); 
+    return (2 * n + 1) + formulaA(n - 1); 
 }
 
 float formulaB(int n)
