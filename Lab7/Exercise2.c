@@ -8,7 +8,7 @@ int bsearch(int arr[], int size, int key)
         if (arr[mid] == key) return mid;
         else if (arr[mid] < key) start = mid + 1;
         else end = mid - 1;
-    } while (start < end);
+    } while (start <= end);
     return -1;
 }
 
